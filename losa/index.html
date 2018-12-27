@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro|Old+Standard+TT|Playfair+Display+SC" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+
+    <!-- Project's CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Home</title>
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-transparent" id="navBar">
+      <a class="navbar-brand" id="losaLogo" href="#">
+        <img src="./assets/images/welcome1.png" width="30" height="30" alt="">
+      </a>
+      <button class="nav-button border-0" id="losaName">LOSA</button>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+              
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <button class="nav-button border-0" id="galleryLink">Gallery</button>
+          </li>
+          <li class="nav-item active">
+            <button class="nav-button border-0" id="locationLink">Location</button>
+          </li>
+          <li class="nav-item active">
+            <button class="nav-button border-0" id="contactLink">Contact Us</button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="indicatorsCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#indicatorsCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#indicatorsCarousel" data-slide-to="1"></li>
+        <li data-target="#indicatorsCarousel" data-slide-to="2"></li>
+        <li data-target="#indicatorsCarousel" data-slide-to="3"></li>
+        <li data-target="#indicatorsCarousel" data-slide-to="4"></li>
+        <li data-target="#indicatorsCarousel" data-slide-to="5"></li>
+      </ol>
+      <div id="carouselGallery" class="carousel-inner w-100">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="./assets/images/car-1.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./assets/images/car-2.jpg" alt="Second slide">
+        </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./assets/images/car-3.jpg" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./assets/images/car-4.jpg" alt="Fourth slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./assets/images/car-5.jpg" alt="Fifth slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./assets/images/car-6.jpg" alt="Sixth slide">
+          </div>
+      </div>
+      <a class="carousel-control-prev" href="#indicatorsCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#indicatorsCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    
+    <!-- Gallery -->
+    <div class="bg-dark w-100 mb-5" id="galleryDiv">
+      <br>
+      <h3 class="text-center text-white">Featured Products</h3>
+      <br>
+      <div class="row">
+        <div class="col-sm-4 text-center">
+          <button class="gallery-button bg-dark border-0" type="button" data-toggle="modal" data-target="#modal-1"><img class="img-fluid my-3" src="./assets/images/gallery-1.jpg"></button>
+        </div>
+        <div class="col-sm-4 text-center">
+          <button class="gallery-button bg-dark border-0" type="button" data-toggle="modal" data-target="#modal-2"><img class="img-fluid my-3" src="./assets/images/gallery-2.jpg"></button>
+        </div>
+        <div class="col-sm-4 text-center">
+          <button class="gallery-button bg-dark border-0" type="button" data-toggle="modal" data-target="#modal-3"><img class="img-fluid my-3" src="./assets/images/gallery-3.jpg"></button>
+        </div>    
+      </div>
+      <div class="row">
+          <div class="col-sm-4 text-center">
+            <button class="gallery-button bg-dark border-0" type="button" data-toggle="modal" data-target="#modal-4"><img class="img-fluid my-3" src="./assets/images/gallery-4.jpg"></button>
+          </div>
+          <div class="col-sm-4 text-center">
+            <button class="gallery-button bg-dark border-0" type="button" data-toggle="modal" data-target="#modal-5"><img class="img-fluid my-3" src="./assets/images/gallery-5.jpg"></button>
+          </div>
+          <div class="col-sm-4 text-center">
+            <button class="gallery-button bg-dark border-0" type="button" data-toggle="modal" data-target="#modal-6"><img class="img-fluid my-3" src="./assets/images/gallery-6.jpg"></button>
+          </div>    
+      </div>
+    </div>
+
+    <!-- Modals for the Gallery -->
+    <div class="modal fade bd-example-modal-xl" id="modal-1" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="row">
+            <div class="col-sm-9 px-0">
+              <div class="card">
+                <img src="./assets/images/gallery-1.jpg" alt="" class="img-fluid w-100">  
+              </div>
+            </div>
+            <div class="col-sm-3 px-0">
+              <div class="row">
+                <div class="col-10 col-sm-10 px-0">
+                  <h5>Durango Honed Honed Honed</h5>
+                </div>
+                <div class="col-2 col-sm-2 d-flex flex-row-reverse px-0">
+                  <button type="button" class="btn btn-secondary btn-sm h-75 pt-0" data-dismiss="modal" aria-label="Close">X</button>
+                </div>
+              </div>
+              <p>Available Sizes</p>
+              <hr>
+              <ul>
+                <li>24 x 24</li>
+                <li>18 x 18</li>
+                <li>12 x 12</li>
+                <li>6 x 10 x 2</li>
+                <li>2 x 6 x 3</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade bd-example-modal-xl" id="modal-2" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+          <div class="modal-content">
+            <div class="row">
+              <div class="col-sm-9 px-0">
+                <div class="card">
+                  <img src="./assets/images/gallery-2.jpg" alt="" class="img-fluid w-100">  
+                </div>
+              </div>
+              <div class="col-sm-3 px-0">
+                <div class="row">
+                  <div class="col-10 col-sm-10 px-0">
+                    <h5>Durango Honed Honed Honed</h5>
+                  </div>
+                  <div class="col-2 col-sm-2 d-flex flex-row-reverse px-0">
+                    <button type="button" class="btn btn-secondary btn-sm h-75 pt-0" data-dismiss="modal" aria-label="Close">X</button>
+                  </div>
+                </div>
+                <p>Available Sizes</p>
+                <hr>
+                <ul>
+                  <li>24 x 24</li>
+                  <li>18 x 18</li>
+                  <li>12 x 12</li>
+                  <li>6 x 10 x 2</li>
+                  <li>2 x 6 x 3</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="modal fade bd-example-modal-xl" id="modal-3" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+          <div class="modal-content">
+            <div class="row">
+              <div class="col-sm-9 px-0">
+                <div class="card">
+                  <img src="./assets/images/gallery-3.jpg" alt="" class="img-fluid w-100">  
+                </div>
+              </div>
+              <div class="col-sm-3 px-0">
+                <div class="row">
+                  <div class="col-10 col-sm-10 px-0">
+                    <h5>Durango Honed Honed Honed</h5>
+                  </div>
+                  <div class="col-2 col-sm-2 d-flex flex-row-reverse px-0">
+                    <button type="button" class="btn btn-secondary btn-sm h-75 pt-0" data-dismiss="modal" aria-label="Close">X</button>
+                  </div>
+                </div>
+                <p>Available Sizes</p>
+                <hr>
+                <ul>
+                  <li>24 x 24</li>
+                  <li>18 x 18</li>
+                  <li>12 x 12</li>
+                  <li>6 x 10 x 2</li>
+                  <li>2 x 6 x 3</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="modal fade bd-example-modal-xl" id="modal-4" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="row">
+            <div class="col-sm-9 px-0">
+              <div class="card">
+                <img src="./assets/images/gallery-4.jpg" alt="" class="img-fluid w-100">  
+              </div>
+            </div>
+            <div class="col-sm-3 px-0">
+              <div class="row">
+                <div class="col-10 col-sm-10 px-0">
+                  <h5>Durango Honed Honed Honed</h5>
+                </div>
+                <div class="col-2 col-sm-2 d-flex flex-row-reverse px-0">
+                  <button type="button" class="btn btn-secondary btn-sm h-75 pt-0" data-dismiss="modal" aria-label="Close">X</button>
+                </div>
+              </div>
+              <p>Available Sizes</p>
+              <hr>
+              <ul>
+                <li>24 x 24</li>
+                <li>18 x 18</li>
+                <li>12 x 12</li>
+                <li>6 x 10 x 2</li>
+                <li>2 x 6 x 3</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade bd-example-modal-xl" id="modal-5" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+          <div class="modal-content">
+            <div class="row">
+              <div class="col-sm-9 px-0">
+                <div class="card">
+                  <img src="./assets/images/gallery-5.jpg" alt="" class="img-fluid w-100">  
+                </div>
+              </div>
+              <div class="col-sm-3 px-0">
+                <div class="row">
+                  <div class="col-10 col-sm-10 px-0">
+                    <h5>Durango Honed Honed Honed</h5>
+                  </div>
+                  <div class="col-2 col-sm-2 d-flex flex-row-reverse px-0">
+                    <button type="button" class="btn btn-secondary btn-sm h-75 pt-0" data-dismiss="modal" aria-label="Close">X</button>
+                  </div>
+                </div>
+                <p>Available Sizes</p>
+                <hr>
+                <ul>
+                  <li>24 x 24</li>
+                  <li>18 x 18</li>
+                  <li>12 x 12</li>
+                  <li>6 x 10 x 2</li>
+                  <li>2 x 6 x 3</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="modal fade bd-example-modal-xl" id="modal-6" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+          <div class="modal-content">
+            <div class="row">
+              <div class="col-sm-9 px-0">
+                <div class="card">
+                  <img src="./assets/images/gallery-6.jpg" alt="" class="img-fluid w-100">  
+                </div>
+              </div>
+              <div class="col-sm-3 px-0">
+                <div class="row">
+                  <div class="col-10 col-sm-10 px-0">
+                    <h5>Durango Honed Honed Honed</h5>
+                  </div>
+                  <div class="col-2 col-sm-2 d-flex flex-row-reverse px-0">
+                    <button type="button" class="btn btn-secondary btn-sm h-75 pt-0" data-dismiss="modal" aria-label="Close">X</button>
+                  </div>
+                </div>
+                <p>Available Sizes</p>
+                <hr>
+                <ul>
+                  <li>24 x 24</li>
+                  <li>18 x 18</li>
+                  <li>12 x 12</li>
+                  <li>6 x 10 x 2</li>
+                  <li>2 x 6 x 3</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Map -->
+    <div class="container pt-5 mb-5" id="locationDiv">
+      <div id="map"></div>
+      <p class="mt-5">LOSA TILE & STONE</p>
+      <p>2221 E Winston Rd Ste. J</p>
+      <p>Anaheim, CA, 92806</p>
+      <a href="https://www.google.com/maps/dir//''/@33.8150189,-117.920198,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0x0:0x75a3a6be93f7ed98!2m2!1d-117.8851785!2d33.8150238!3e0" target="_blank">Directions</a>
+      <br>
+      <br>
+      <p class="border-top pt-4">Business Hours:</p>
+      <p>Monday-Friday: 8:00AM-5:00PM</p>
+      <p>Saturday: 10:00AM-3:00PM</p>
+      <p>Sundays & Holidays: Closed</p>
+    </div>
+
+    <!-- Contact -->
+    <div class="container my-5 pt-4" id="contactDiv">
+      <h2 class="mb-5" id="contactMessage">Can't find what you are looking for? Send us a message!</h2>
+      <form action="https://formspree.io/losatile@outlook.com" method="POST">
+        <div class="form-group mb-3" id="formName">
+          <input type="text" name="name" class="form-control" placeholder="Your Name">
+        </div>
+        <div class="form-group mb-3" id="formEmail">
+          <input type="email" name="email" class="form-control" aria-describedby="emailHelp" placeholder="Your email">
+        </div>
+        <div class="form-group" id="formMessage">
+          <textarea name="message" class="form-control" rows="8" placeholder="Your Message Goes Here"></textarea>
+        </div>
+        <div id="submitButtonDiv">
+          <button type="submit" class="btn btn-success" id="submitButton">Send</button>
+        </div>
+      </form>
+      <div class="padding"></div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div id="footer">
+        <div class="container">
+          <p id="footerText" class="text-center">LOSA TILE & STONE COMPANY &#169</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS, then Project's JS, then Google's Map -->
+    <script src="./jQuery/jquery.min.js"></script>
+    <script src="./popper/popper.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/javascript/logic.js"></script>
+    <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4BJ7t5eXxTzncbRz-A4ySYuMUZHyxoI8&callback=initMap"></script> -->
+  </body>
+</html>

@@ -1,0 +1,126 @@
+/* Page */
+body{
+  background-image: url("../../background/px_by_Gre3g_@2X.png");
+  background-repeat: repeat;
+}
+/* Font */
+h3, a {
+  font-family: 'Playfair Display SC', serif;
+}
+p {
+  font-family: 'Old Standard TT', serif;
+  color: white;
+}
+/* Change cursor for buttons */
+button {
+  cursor: pointer;
+}
+/* NavBar Content */
+.bg-transparent{
+  background-color:rgba(224, 224, 215, 0.63)!important;
+}
+.nav-button {
+  background-color: transparent;
+  font-family: 'Playfair Display SC', serif;
+  color: white;
+}
+/* Row Class */
+.row {
+  width: 100%;
+  margin: 0;
+}
+/* Modal Media Queries */
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 500px;
+    margin: 1.75rem auto;
+  }
+  .modal-dialog-centered {
+    min-height: calc(100% - (1.75rem * 2));
+  }
+  .modal-dialog-centered::before {
+    height: calc(100vh - (1.75rem * 2));
+  }
+  .modal-sm {
+    max-width: 300px;
+  }
+}
+@media (min-width: 680px) {
+  .modal-lg,
+  .modal-xl {
+    max-width: 600px;
+  }
+}
+@media (min-width: 800px) {
+  .modal-lg,
+  .modal-xl {
+    max-width: 700px;
+  }
+}
+@media (min-width: 1000px) {
+  .modal-lg,
+  .modal-xl {
+    max-width: 900px;
+  }
+}
+@media (min-width: 1200px) {
+  .modal-xl {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1500px) {
+  .modal-xl {
+    max-width: 1400px;
+  }
+}
+@media (min-width: 2000px) {
+  .modal-xl {
+    max-width: 1800px;
+  }
+}
+/* Map */
+#map {
+  width: 100%;
+  height: 500px;
+}
+/* Directions Link */
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+/* Submit Button  in "Contact Us"*/
+#submitButton {
+  border-radius: 15px;
+}
+.btn:active {
+  background-color: #3e8e41;
+  transform: translateY(4px);
+}
+#contactMessage {
+  font-family: 'Source Serif Pro', serif;
+  color: white;
+}
+input {
+  font-family: 'Source Serif Pro', serif;
+}
+/* Footer */
+#footer {
+  background-color: azure;
+}
+footer {
+  width: 100%;
+  position: absolute;
+  height: 20px;
+  margin: 0;
+}
+footer>div>div>p {
+  margin: 0;
+}
+#footerText{
+  color: black;
+}

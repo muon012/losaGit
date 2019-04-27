@@ -17,7 +17,9 @@ button {
 }
 /* NavBar Content */
 .bg-transparent{
-  background-color:rgba(224, 224, 215, 0.63)!important;
+  /* background-color:rgba(224, 224, 215, 0.63)!important; */
+  background-image: url("../../background/diagonal-squares.png");
+  background-repeat: repeat;
 }
 .nav-button {
   background-color: transparent;
